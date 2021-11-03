@@ -1,30 +1,9 @@
 name,ring,quadrant,isNew,description
-Micro Service,Adopt,Techniques,TRUE,Hurs is made up of many little manual steps currently.  We would like to Adopt a service oriented architecture to perform these steps. 
-"API, endpoint exposure",Adopt,Techniques,1,Present/expose endpoints for certain parts of the hurs imaging process for consumption
-Unit Testing,Adopt,Techniques,1,"Since we are continuous integration, we need better testing prior to promoting code "
-Auto Scaling,Adopt,Techniques,1,deploy servers to increase speed and scale based on size of report run.
-Queuing ,Adopt,Techniques,1,Promote automation and scaling using queuing to kick off jobs and distribute load
-Continuous Integration Deployment,Adopt,Techniques,1,Set up a proper process here.  The current process is not the right way to do it
-Multithread / Multiservice Batch Runs,Adopt,Techniques,0,Runs across multiple threads on multiple servers in a distributed environment.
-Digital Storage and Web Delivery,Assess,Techniques,1,Need to set up web interface for encrypted storage and retrieval of PDF content.
-Cyprus,Adopt,Tool,1,Unit testing tool for comparison of html and potentially PDF.  
-SQS,Adopt,Tool,1,AWS SQS queue system.  Will be used to automate and distribute load
-MYSQL,Adopt,Tool,0,"Currently used to house data, manage processes and index reports"
-Keyspace,Adopt,Tool,1,Json data collection storage to be used in conjuction with Auto scaling.
-AWS PHP SDK,Assess,Tool,1,Used to interface with S3 for encrypted storage
-Puppeteer,Assess,Tool,0,HTML to PDF tool used to turn JS created charts and text into a pdf image
-Highcharts,Assess,Tool,0,Charting library used in conjuction with puppeteer to create charts and turn them into PDF or images for reports/customer outreach
-Flask,Assess,Tool,1,Tool used to quickly deploy and manage microservices Python based.  Very similar to Django however it is very light weight and modular
-AWS S3,Assess,Tool,0,Cheap data storage for CS teams to pull old reports and minimize maintenance.  Also will be used to store zip files and images for autoscaled report production
 Go,Adopt,Languages/Frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)"
 Node.js,Assess,Languages/Frameworks,0,Javascripting backend library
 PHP,Assess,Languages/Frameworks,0,"Current Language used in portal and DCS hurs.  We would like to Assess this, as we seem to find we are using different languages for implementation and would rather standardize as best we can"
 Python,Assess,Languages/Frameworks,1,"Language used for various tasks, might be useful to Assess its usage for certain scripting tasks or greater Adoption in the future potentially"
 Kubernetes,Assess,Languages/Frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially
-LAMP ,Assess,Platform,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs"
-BigCommerce,Adopt,Platforms,yes,BigCommerce is our e-commerce SaaS platform that houses all of our turnkey e-commerce marketplaces.
-Azure,Adopt,Platforms,yes,Azure is the platform we use for our newer platform-based development resources.
-NetSuite,Adopt,Platforms,yes,NetSuite is our ERP platform which is what we use for fulfilling orders.
 C#,Adopt,Languages/Frameworks,yes,C# is the language we use for newer platform-based services.
 .Net Core,Adopt,Languages/Frameworks,yes,.Net Core is the framework we use for newer platform-based services.
 Entity Framework Core,Adopt,Languages/Frameworks,yes,Entity Framework Core is the ORM framework we use for newer platform-based services.
@@ -33,45 +12,11 @@ HTML,Adopt,Languages/Frameworks,yes,HTML is the markup language we use to define
 Handlebars,Adopt,Languages/Frameworks,yes,Handlebars is the template language we use as part of Stencil theme development for customizing our e-commerce frontend.
 CSS,Adopt,Languages/Frameworks,yes,"CSS is the styling language we use to define the look, feel, layout of our e-commerce frontend."
 SCSS,Adopt,Languages/Frameworks,yes,SCSS is the styling language we use to extend our CSS functionality and make writing CSS code easier for the e-commerce frontend.
-Stencil (BigCommerce),Adopt,Tools,yes,Stencil theme is the front-end build tool provided by BigCommerce for creating themes that can be used to power e-commerce sites.
-MS SQL Server,Adopt,Tools,yes,MS SQL server is the RDBMS we use for storing data supporting e-commerce applications.
-Visual Studio,Adopt,Tools,yes,Visual Studio is the IDE we use for creating .Net Core applications
-Visual Studio Code,Adopt,Tools,yes,"Visual Studio Code is the IDE we use when working with non .Net codebases, such as front-end development using Stencil."
-Git,Adopt,Tools,yes,"Git is the SCM tool we use for storing, reviewing, and collaborating on code."
-Jira Cloud,Adopt,Platforms,yes,Jira Cloud is the project management system we use for collaborating on work.
-Confluence Cloud,Adopt,Platforms,yes,Confluence cloud is the wiki software we use to collaborate on documentation.
-Azure Function Apps,Adopt,Tools,yes,Azure function apps are serverless task processing Tools which power our marketplace API operations.
-Azure SQL Server,Adopt,Tools,yes,Azure SQL Server is an azure hosted cloud instance of MS SQL Server
 GraphQL (consuming),Adopt,Languages/Frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners.
-Agile Development,Adopt,Techniques,yes,"Agile development is a collaborative, self-organizing software development technique. "
-Peer Code Review / PRs,Adopt,Techniques,yes,Peer code review is a technique we currently use to ensure code quality by having developers review other developers code as part of pull requests.
-Azure App Service,Assess,Tools,yes,Azure app service is a platform service for hosting web applications. Assess in comparison to function apps.
-NetSuite Rest Web Services,Assess,Platforms,yes,NetSuite Rest Web Services is a newer offering from NetSuite that allows for RESTful interaction with NetSuite resources including transactions. Assess in comparison to RESTlets
 TypeScript,Assess,Languages/Frameworks,yes,"TypeScript is a typed language that compiles to JavaScript, we use this for a few legacy applications. Assess to see if we want to use this everywhere we use JavaScript."
-BitBucket Cloud,Assess,Platforms,yes,BitBucket (server) is our current hosting environment for SCM. Assess the cloud version to see what environment we should use for this.
-Azure DevOps,Assess,Platforms,yes,"Azure DevOps is a suite of cloud Tools for SCM, pipelines, and other operations. Assess for SCM and to see what other Tools we can use."
 GraphQL (providing),Assess,Languages/Frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners. Assess whether we would ever want to provide this to either internal or external applications.
-Azure Pipelines,Assess,Tools,yes,Azure Pipelines are build/test Tools to enable automated build and tests of code bases. Assess to help scale regression testing and automate environment-based updates.
-Automated Testing,Assess,Techniques,yes,Automated testing is a technique to support scalable testing by automating test cases.
-Celigo Integrator / iPaaS,Assess,Platforms,yes,"Celigo Integrator is a platform that allows for scalable integrations between popular services (BigCommerce, NetSuite, SalesForce, etc.) Assess to replace existing integration services."
-Code Linting,Assess,Techniques,yes,Code linting is a technique that automatically evaluates code for styling and other errors.
-Formal Coding Standards,Assess,Techniques,yes,Formal coding standards are defined coding standards agreed upon by developers.
-Code Linting for Formal Coding Standards,Assess,Techniques,yes,Code linting to enforce formal coding standards.
-CI/CD,Assess,Techniques,yes,Continuous integration / Continuous delivery is a technique that is supported by automated testing and build pipelines to allow for continual updates.
-ThemeBridge / BigCommerce Environments,Assess,Tools,yes,"ThemeBridge is a product offered by IntuitSolutions which enables ""sandbox"" environments for BigCommerce theme development. BigCommerce as a storefront is a single environment instance, so something similar to this would be helpful for UAT."
-NetSuite SuiteTalk Web Services (SOAP),Hold,Platforms,yes,NetSuite SuiteTalk is a platform service for transmitting data to and from NetSuite using SOAP. Hold for more modern alternatives (RESTlets or Rest Web Services).
-On Premise SQL Server,Hold,Tools,yes,We might want to consider deprecating at least our usage of and access to the on-premise SQL server in comparison to using a cloud solution.
-Azure Logic Apps,Hold,Tools,yes,Azure logic apps are no-code applications we use for some functionality. Hold in the sense that anything we do in this space should most likely go through an App Service or Function App instead.
-NetSuite RESTlets,Hold,Tools,yes,NetSuite RESTlets are scripts written in JavaScript to allow for RESTful interaction within NetSuite. Hold to compare with either NetSuite REST Web Services or other less development intense ways of accessing NetSuite data.
-NetSuite Map/Reduce Scripts,Hold,Tools,yes,NetSuite Map/Reduce scripts are scripts written in JavaScript to allow for scalable map/reduce operations across NetSuite data. Hold to consider moving processing outside of NetSuite and using single resource / action APIs instead.
-AWS,Hold,Platforms,yes,AWS is a platform for hosting development resources. We currently use this for legacy applications. Hold to move to Azure.
 Node.JS,Hold,Languages/Frameworks,yes,Node.JS is a server-side JavaScript framework that powers legacy web services. Hold to move to .Net
 PostgreSQL,Hold,Languages/Frameworks,yes,PostgreSQL is a RDMS that powers some legacy web services. Hold to move to MS SQL Server
-Confluence Server,Hold,Platforms,yes,Confluence server is our current cloud documentation platform. Hold to move to Confluence cloud or another resource.
-Jira Server,Hold,Tools,yes,Jira Server is our legacy cloud project management system. Hold since we have moved to Jira cloud.
-BitBucket Server,Hold,Tools,yes,BitBucket (server) is our current hosting environment for SCM. Hold to move to a cloud alternative.
-Nginx,Hold,Tools,yes,Nginx is a legacy web server application used for some legacy web services. Hold to move to Azure App Service or Function Apps
-Gitflow workflow,Hold,Techniques,yes,"Gitflow is a workflow that uses multiple ""main"" branches and feature branches to manage releases. Hold to consider simpler or more modern alternatives."
 .Net Framework,Adopt,Languages/Frameworks,,
 .Net 5,Adopt,Languages/Frameworks,,
 .Net Core,Adopt,Languages/Frameworks,,
@@ -86,6 +31,19 @@ Javascript,Adopt,Languages/Frameworks,,
 JQuery,Adopt,Languages/Frameworks,,
 KnockoutJS,Adopt,Languages/Frameworks,,
 .Net Maui,Assess,Languages/Frameworks,,
+LAMP ,Assess,Platform,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs"
+BigCommerce,Adopt,Platforms,yes,BigCommerce is our e-commerce SaaS platform that houses all of our turnkey e-commerce marketplaces.
+Azure,Adopt,Platforms,yes,Azure is the platform we use for our newer platform-based development resources.
+NetSuite,Adopt,Platforms,yes,NetSuite is our ERP platform which is what we use for fulfilling orders.
+Jira Cloud,Adopt,Platforms,yes,Jira Cloud is the project management system we use for collaborating on work.
+Confluence Cloud,Adopt,Platforms,yes,Confluence cloud is the wiki software we use to collaborate on documentation.
+NetSuite Rest Web Services,Assess,Platforms,yes,NetSuite Rest Web Services is a newer offering from NetSuite that allows for RESTful interaction with NetSuite resources including transactions. Assess in comparison to RESTlets
+BitBucket Cloud,Assess,Platforms,yes,BitBucket (server) is our current hosting environment for SCM. Assess the cloud version to see what environment we should use for this.
+Azure DevOps,Assess,Platforms,yes,"Azure DevOps is a suite of cloud Tools for SCM, pipelines, and other operations. Assess for SCM and to see what other Tools we can use."
+Celigo Integrator / iPaaS,Assess,Platforms,yes,"Celigo Integrator is a platform that allows for scalable integrations between popular services (BigCommerce, NetSuite, SalesForce, etc.) Assess to replace existing integration services."
+NetSuite SuiteTalk Web Services (SOAP),Hold,Platforms,yes,NetSuite SuiteTalk is a platform service for transmitting data to and from NetSuite using SOAP. Hold for more modern alternatives (RESTlets or Rest Web Services).
+AWS,Hold,Platforms,yes,AWS is a platform for hosting development resources. We currently use this for legacy applications. Hold to move to Azure.
+Confluence Server,Hold,Platforms,yes,Confluence server is our current cloud documentation platform. Hold to move to Confluence cloud or another resource.
 Auth0,Adopt,Platforms,,
 Azure Blob Storage,Adopt,Platforms,,
 Azure Function Apps,Adopt,Platforms,,
@@ -93,9 +51,51 @@ Azure Queues,Adopt,Platforms,,
 Azure SQL,Adopt,Platforms,,
 Azure Web Apps,Adopt,Platforms,,
 Salesforce,Adopt,Platforms,,
+Micro Service,Adopt,Techniques,TRUE,Hurs is made up of many little manual steps currently.  We would like to Adopt a service oriented architecture to perform these steps. 
+"API, endpoint exposure",Adopt,Techniques,1,Present/expose endpoints for certain parts of the hurs imaging process for consumption
+Unit Testing,Adopt,Techniques,1,"Since we are continuous integration, we need better testing prior to promoting code "
+Auto Scaling,Adopt,Techniques,1,deploy servers to increase speed and scale based on size of report run.
+Queuing ,Adopt,Techniques,1,Promote automation and scaling using queuing to kick off jobs and distribute load
+Continuous Integration Deployment,Adopt,Techniques,1,Set up a proper process here.  The current process is not the right way to do it
+Multithread / Multiservice Batch Runs,Adopt,Techniques,0,Runs across multiple threads on multiple servers in a distributed environment.
+Digital Storage and Web Delivery,Assess,Techniques,1,Need to set up web interface for encrypted storage and retrieval of PDF content.
+Agile Development,Adopt,Techniques,yes,"Agile development is a collaborative, self-organizing software development technique. "
+Peer Code Review / PRs,Adopt,Techniques,yes,Peer code review is a technique we currently use to ensure code quality by having developers review other developers code as part of pull requests.
+Automated Testing,Assess,Techniques,yes,Automated testing is a technique to support scalable testing by automating test cases.
+Code Linting,Assess,Techniques,yes,Code linting is a technique that automatically evaluates code for styling and other errors.
+Formal Coding Standards,Assess,Techniques,yes,Formal coding standards are defined coding standards agreed upon by developers.
+Code Linting for Formal Coding Standards,Assess,Techniques,yes,Code linting to enforce formal coding standards.
+CI/CD,Assess,Techniques,yes,Continuous integration / Continuous delivery is a technique that is supported by automated testing and build pipelines to allow for continual updates.
+Gitflow workflow,Hold,Techniques,yes,"Gitflow is a workflow that uses multiple ""main"" branches and feature branches to manage releases. Hold to consider simpler or more modern alternatives."
 CI/CD,Adopt,Techniques,,
 Deployment Slots,Adopt,Techniques,,
 UnitTests,Adopt,Techniques,,
+Cyprus,Adopt,Tools,1,Unit testing tool for comparison of html and potentially PDF.  
+SQS,Adopt,Tools,1,AWS SQS queue system.  Will be used to automate and distribute load
+MYSQL,Adopt,Tools,0,"Currently used to house data, manage processes and index reports"
+Keyspace,Adopt,Tools,1,Json data collection storage to be used in conjuction with Auto scaling.
+AWS PHP SDK,Assess,Tools,1,Used to interface with S3 for encrypted storage
+Puppeteer,Assess,Tools,0,HTML to PDF tool used to turn JS created charts and text into a pdf image
+Highcharts,Assess,Tools,0,Charting library used in conjuction with puppeteer to create charts and turn them into PDF or images for reports/customer outreach
+Flask,Assess,Tools,1,Tool used to quickly deploy and manage microservices Python based.  Very similar to Django however it is very light weight and modular
+AWS S3,Assess,Tools,0,Cheap data storage for CS teams to pull old reports and minimize maintenance.  Also will be used to store zip files and images for autoscaled report production
+Stencil (BigCommerce),Adopt,Tools,yes,Stencil theme is the front-end build tool provided by BigCommerce for creating themes that can be used to power e-commerce sites.
+MS SQL Server,Adopt,Tools,yes,MS SQL server is the RDBMS we use for storing data supporting e-commerce applications.
+Visual Studio,Adopt,Tools,yes,Visual Studio is the IDE we use for creating .Net Core applications
+Visual Studio Code,Adopt,Tools,yes,"Visual Studio Code is the IDE we use when working with non .Net codebases, such as front-end development using Stencil."
+Git,Adopt,Tools,yes,"Git is the SCM tool we use for storing, reviewing, and collaborating on code."
+Azure Function Apps,Adopt,Tools,yes,Azure function apps are serverless task processing Tools which power our marketplace API operations.
+Azure SQL Server,Adopt,Tools,yes,Azure SQL Server is an azure hosted cloud instance of MS SQL Server
+Azure App Service,Assess,Tools,yes,Azure app service is a platform service for hosting web applications. Assess in comparison to function apps.
+Azure Pipelines,Assess,Tools,yes,Azure Pipelines are build/test Tools to enable automated build and tests of code bases. Assess to help scale regression testing and automate environment-based updates.
+ThemeBridge / BigCommerce Environments,Assess,Tools,yes,"ThemeBridge is a product offered by IntuitSolutions which enables ""sandbox"" environments for BigCommerce theme development. BigCommerce as a storefront is a single environment instance, so something similar to this would be helpful for UAT."
+On Premise SQL Server,Hold,Tools,yes,We might want to consider deprecating at least our usage of and access to the on-premise SQL server in comparison to using a cloud solution.
+Azure Logic Apps,Hold,Tools,yes,Azure logic apps are no-code applications we use for some functionality. Hold in the sense that anything we do in this space should most likely go through an App Service or Function App instead.
+NetSuite RESTlets,Hold,Tools,yes,NetSuite RESTlets are scripts written in JavaScript to allow for RESTful interaction within NetSuite. Hold to compare with either NetSuite REST Web Services or other less development intense ways of accessing NetSuite data.
+NetSuite Map/Reduce Scripts,Hold,Tools,yes,NetSuite Map/Reduce scripts are scripts written in JavaScript to allow for scalable map/reduce operations across NetSuite data. Hold to consider moving processing outside of NetSuite and using single resource / action APIs instead.
+Jira Server,Hold,Tools,yes,Jira Server is our legacy cloud project management system. Hold since we have moved to Jira cloud.
+BitBucket Server,Hold,Tools,yes,BitBucket (server) is our current hosting environment for SCM. Hold to move to a cloud alternative.
+Nginx,Hold,Tools,yes,Nginx is a legacy web server application used for some legacy web services. Hold to move to Azure App Service or Function Apps
 Azure Pipelines,Adopt,Tools,,
 Confluence,Adopt,Tools,,
 DevExpress,Adopt,Tools,,

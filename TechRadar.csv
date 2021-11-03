@@ -1,37 +1,37 @@
 name,ring,quadrant,isNew,description
-Go,Adopt,Languages/Frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)"
-Node.js,Assess,Languages/Frameworks,0,Javascripting backend library
-PHP,Assess,Languages/Frameworks,0,"Current Language used in portal and DCS hurs.  We would like to Assess this, as we seem to find we are using different languages for implementation and would rather standardize as best we can"
-Python,Assess,Languages/Frameworks,1,"Language used for various tasks, might be useful to Assess its usage for certain scripting tasks or greater Adoption in the future potentially"
-Kubernetes,Assess,Languages/Frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially
-C#,Adopt,Languages/Frameworks,yes,C# is the language we use for newer platform-based services.
-.Net Core,Adopt,Languages/Frameworks,yes,.Net Core is the framework we use for newer platform-based services.
-Entity Framework Core,Adopt,Languages/Frameworks,yes,Entity Framework Core is the ORM framework we use for newer platform-based services.
-JavaScript,Adopt,Languages/Frameworks,yes,JavaScript is the language we use to enable interactivity within the front-end of our e-commerce solutions as well as NetSuite scripting.
-HTML,Adopt,Languages/Frameworks,yes,HTML is the markup language we use to define the content and structure of our e-commerce frontend.
-Handlebars,Adopt,Languages/Frameworks,yes,Handlebars is the template language we use as part of Stencil theme development for customizing our e-commerce frontend.
-CSS,Adopt,Languages/Frameworks,yes,"CSS is the styling language we use to define the look, feel, layout of our e-commerce frontend."
-SCSS,Adopt,Languages/Frameworks,yes,SCSS is the styling language we use to extend our CSS functionality and make writing CSS code easier for the e-commerce frontend.
-GraphQL (consuming),Adopt,Languages/Frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners.
-TypeScript,Assess,Languages/Frameworks,yes,"TypeScript is a typed language that compiles to JavaScript, we use this for a few legacy applications. Assess to see if we want to use this everywhere we use JavaScript."
-GraphQL (providing),Assess,Languages/Frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners. Assess whether we would ever want to provide this to either internal or external applications.
-Node.JS,Hold,Languages/Frameworks,yes,Node.JS is a server-side JavaScript framework that powers legacy web services. Hold to move to .Net
-PostgreSQL,Hold,Languages/Frameworks,yes,PostgreSQL is a RDMS that powers some legacy web services. Hold to move to MS SQL Server
-.Net Framework,Adopt,Languages/Frameworks,,
-.Net 5,Adopt,Languages/Frameworks,,
-.Net Core,Adopt,Languages/Frameworks,,
-ASP.NET MVC,Adopt,Languages/Frameworks,,
-Blazor,Adopt,Languages/Frameworks,,
-Bootstrap,Adopt,Languages/Frameworks,,
-C#,Adopt,Languages/Frameworks,,
-CSS,Adopt,Languages/Frameworks,,
-Entity Framework,Adopt,Languages/Frameworks,,
-HTML,Adopt,Languages/Frameworks,,
-Javascript,Adopt,Languages/Frameworks,,
-JQuery,Adopt,Languages/Frameworks,,
-KnockoutJS,Adopt,Languages/Frameworks,,
-.Net Maui,Assess,Languages/Frameworks,,
-LAMP ,Assess,Platform,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs"
+Go,Adopt,Languages & frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)"
+Node.js,Assess,Languages & frameworks,0,Javascripting backend library
+PHP,Assess,Languages & frameworks,0,"Current Language used in portal and DCS hurs.  We would like to Assess this, as we seem to find we are using different languages for implementation and would rather standardize as best we can"
+Python,Assess,Languages & frameworks,1,"Language used for various tasks, might be useful to Assess its usage for certain scripting tasks or greater Adoption in the future potentially"
+Kubernetes,Assess,Languages & frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially
+C#,Adopt,Languages & frameworks,yes,C# is the language we use for newer platform-based services.
+.Net Core,Adopt,Languages & frameworks,yes,.Net Core is the framework we use for newer platform-based services.
+Entity Framework Core,Adopt,Languages & frameworks,yes,Entity Framework Core is the ORM framework we use for newer platform-based services.
+JavaScript,Adopt,Languages & frameworks,yes,JavaScript is the language we use to enable interactivity within the front-end of our e-commerce solutions as well as NetSuite scripting.
+HTML,Adopt,Languages & frameworks,yes,HTML is the markup language we use to define the content and structure of our e-commerce frontend.
+Handlebars,Adopt,Languages & frameworks,yes,Handlebars is the template language we use as part of Stencil theme development for customizing our e-commerce frontend.
+CSS,Adopt,Languages & frameworks,yes,"CSS is the styling language we use to define the look, feel, layout of our e-commerce frontend."
+SCSS,Adopt,Languages & frameworks,yes,SCSS is the styling language we use to extend our CSS functionality and make writing CSS code easier for the e-commerce frontend.
+GraphQL (consuming),Adopt,Languages & frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners.
+TypeScript,Assess,Languages & frameworks,yes,"TypeScript is a typed language that compiles to JavaScript, we use this for a few legacy applications. Assess to see if we want to use this everywhere we use JavaScript."
+GraphQL (providing),Assess,Languages & frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners. Assess whether we would ever want to provide this to either internal or external applications.
+Node.JS,Hold,Languages & frameworks,yes,Node.JS is a server-side JavaScript framework that powers legacy web services. Hold to move to .Net
+PostgreSQL,Hold,Languages & frameworks,yes,PostgreSQL is a RDMS that powers some legacy web services. Hold to move to MS SQL Server
+.Net Framework,Adopt,Languages & frameworks,,
+.Net 5,Adopt,Languages & frameworks,,
+.Net Core,Adopt,Languages & frameworks,,
+ASP.NET MVC,Adopt,Languages & frameworks,,
+Blazor,Adopt,Languages & frameworks,,
+Bootstrap,Adopt,Languages & frameworks,,
+C#,Adopt,Languages & frameworks,,
+CSS,Adopt,Languages & frameworks,,
+Entity Framework,Adopt,Languages & frameworks,,
+HTML,Adopt,Languages & frameworks,,
+Javascript,Adopt,Languages & frameworks,,
+JQuery,Adopt,Languages & frameworks,,
+KnockoutJS,Adopt,Languages & frameworks,,
+.Net Maui,Assess,Languages & frameworks,,
+LAMP ,Assess,Platforms,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs"
 BigCommerce,Adopt,Platforms,yes,BigCommerce is our e-commerce SaaS platform that houses all of our turnkey e-commerce marketplaces.
 Azure,Adopt,Platforms,yes,Azure is the platform we use for our newer platform-based development resources.
 NetSuite,Adopt,Platforms,yes,NetSuite is our ERP platform which is what we use for fulfilling orders.

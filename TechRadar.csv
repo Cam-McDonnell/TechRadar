@@ -1,13 +1,13 @@
 name,ring,quadrant,isNew,description
-HURs - Micro Service,Adopt,Techniques,TRUE,HURs - Hurs is made up of many little manual steps currently.  We would like to adopt a service oriented architecture to perform these steps.
-HURs - API, endpoint exposure",Adopt,Techniques,1,HURs - Present/expose endpoints for certain parts of the hurs imaging process for consumption
+HURs - Micro Service,Adopt,Techniques,TRUE,HURs - Hurs is made up of many little manual steps currently.  We would like to adopt a service oriented architecture to perform these steps. 
+"HURs - API, endpoint exposure",Adopt,Techniques,1,HURs - Present/expose endpoints for certain parts of the hurs imaging process for consumption
 HURs - Unit Testing,Adopt,Techniques,1,"Since we are continuous integration, we need better testing prior to promoting code "
 HURs - Auto Scaling,Adopt,Techniques,1,deploy servers to increase speed and scale based on size of report run.
 HURs - Queuing ,Adopt,Techniques,1,Promote automation and scaling using queuing to kick off jobs and distribute load
 HURs - Continuous Integration Deployment,Adopt,Techniques,1,Set up a proper process here.  The current process is not the right way to do it
 HURs - Multithread / Multiservice Batch Runs,Adopt,Techniques,0,Runs across multiple threads on multiple servers in a distributed environment.
 HURs - Digital Storage and Web Delivery,Assess,Techniques,1,Need to set up web interface for encrypted storage and retrieval of PDF content.
-HURs - Cyprus,Adopt,Tools,1,Unit testing tool for comparison of html and potentially PDF.
+HURs - Cyprus,Adopt,Tools,1,Unit testing tool for comparison of html and potentially PDF.  
 HURs - SQS,Adopt,Tools,1,AWS SQS queue system.  Will be used to automate and distribute load
 HURs - MYSQL,Adopt,Tools,0,"Currently used to house data, manage processes and index reports"
 HURs - Keyspace,Adopt,Tools,1,Json data collection storage to be used in conjuction with Auto scaling.
@@ -102,7 +102,7 @@ Services - Git,Adopt,Tools,,Source Control
 Services - JIRA,Adopt,Tools,,Jira is used for issue and project tracking
 Services - Postman,Adopt,Tools,,Postman is an API platform that we use for Integration testing
 Services - Resharper,Adopt,Tools,,Resharper is a VS plug-in that adds navigation and editing features to VS
-Services - Visual Studio,Adopt,Tools,,Visual Studio is the IDE we use
+Services - Visual Studio,Adopt,Tools,,Visual Studio is the IDE we use 
 Services - Visual Studio Code,Adopt,Tools,,Visual Studio Code is the IDE we use for Salesforce APEX development
 Services - Redoc,Adopt,Tools,,API Documentation Tool/Framework
 Services - .Net Maui,Assess,languages-and-frameworks,,.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.
@@ -114,12 +114,12 @@ Data Analytics - Azure Data Factory,Hold,Tools,yes,ETL tool allowing for data li
 Data Analytics - DataBricks,Hold,Platforms,yes,Cloud based data science tool
 Data Analytics - Synapse (TBD),Assess,Platforms,yes,full-data platform but may not be necessary - need to review
 CEP - PHP 7,Adopt,languages-and-frameworks,,Main trunk code wirtten in php
-CEP - PHP 7.1,Adopt,languages-and-frameworks,,Separate version to accomidate deprecated funcitonality
+CEP - PHP 7.1,Adopt,languages-and-frameworks,,Separate version to accomidate deprecated funcitonality 
 CEP - Laravel,Adopt,languages-and-frameworks,,"CEP written in laravle, mainly for API use as of now"
 CEP - MYSQL,Adopt,Platforms,,Main DB for anything other than meter read data
 CEP - Cassandra,Adopt,Platforms,,db for meter read data
 CEP - Bitbucket,Adopt,Tools,,version control
 CEP - Ubuntu 16,Adopt,Platforms,,"Puts the L in LAMP, old version"
 CEP - AWS,Adopt,Tools,,"Server hosting, autoscaling"
-CEP - Golang,Adopt,languages-and-frameworks,,usage service and file management for ingestion
+CEP - Golang,Adopt,languages-and-frameworks,,usage service and file management for ingestion 
 CEP - Zend 1,Adopt,languages-and-frameworks,,trunk code written in this old framework

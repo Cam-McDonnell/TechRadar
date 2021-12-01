@@ -1,102 +1,102 @@
-name,ring,quadrant,isNew,description,
-HURs - Micro Service,Adopt,Techniques,TRUE,HURs - Hurs is made up of many little manual steps currently.  We would like to adopt a service oriented architecture to perform these steps. ,
-"General - API, endpoint exposure",Adopt,Techniques,1,HURs - Present/expose endpoints for certain parts of the hurs imaging process for consumption,
-General - Unit Testing,Adopt,Techniques,1,"Since we are continuous integration, we need better testing prior to promoting code ",
-General - Auto Scaling Infrastructue,Adopt,Techniques,1,deploy servers to increase speed and scale based on size of report run.,
-General - Queuing ,Adopt,Techniques,1,Promote automation and scaling using queuing to kick off jobs and distribute load,
-General - Continuous Integration Deployment,Adopt,Techniques,1,Set up a proper process here.  The current process is not the right way to do it,
-HURs - Multithread / Multiservice Batch Runs,Adopt,Techniques,0,Runs across multiple threads on multiple servers in a distributed environment.,
-HURs - Digital Storage and Web Delivery,Assess,Techniques,1,Need to set up web interface for encrypted storage and retrieval of PDF content.,
-General - Cyprus,Adopt,Tools,1,Unit testing tool for comparison of html and potentially PDF.  ,
-General - SQS,Adopt,Tools,1,AWS SQS queue system.  Will be used to automate and distribute load,
-Cep/Hurs - MYSQL,Adopt,Tools,0,"Currently used to house data, manage processes and index reports",
-HURs - Keyspaces,Assess,Tools,1,Json data collection storage to be used in conjuction with Auto scaling.,
-HURs - AWS PHP SDK,Assess,Tools,1,Used to interface with S3 for encrypted storage,
-HURs - Puppeteer,Assess,Tools,0,HTML to PDF tool used to turn JS created charts and text into a pdf image,
-HURs - Highcharts,Assess,Tools,0,Charting library used in conjuction with puppeteer to create charts and turn them into PDF or images for reports/customer outreach,
-HURs - Flask,Assess,Tools,1,Tool used to quickly deploy and manage microservices Python based.  Very similar to Django however it is very light weight and modular,
-HURs - AWS S3,Assess,Tools,0,Cheap data storage for CS teams to pull old reports and minimize maintenance.  Also will be used to store zip files and images for autoscaled report production,
-Cep/Hurs - Go,Adopt,languages-and-frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)",
-HURs - Next.js,Adopt,languages-and-frameworks,,,
-General - Node.js,Assess,languages-and-frameworks,0,Javascripting backend library,
-Data analytics/HURs - Python,Trial,languages-and-frameworks,1,"Language used for various tasks, might be useful to assess its usage for certain scripting tasks or greater adoption in the future potentially",
-HURs - Kubernetes,Assess,languages-and-frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially,
-Cep/HURs - LAMP ,Assess,Platforms,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs",
-Products - BigCommerce,Adopt,Platforms,yes,BigCommerce is our e-commerce SaaS platform that houses all of our turnkey e-commerce marketplaces.,
-Products/Services - Azure,Adopt,Platforms,yes,Azure is the platform we use for our newer platform-based development resources.,
-Products - NetSuite,Adopt,Platforms,yes,NetSuite is our ERP platform which is what we use for fulfilling orders.,
-Products/Services - C#,Adopt,languages-and-frameworks,yes,C# is the language we use for newer platform-based services.,
-Products/Services - .Net Core,Adopt,languages-and-frameworks,yes,.Net Core is the framework we use for newer platform-based services.,
-Products/Services - Entity Framework Core,Adopt,languages-and-frameworks,yes,Entity Framework Core is the ORM framework we use for newer platform-based services.,
-General - JavaScript,Adopt,languages-and-frameworks,yes,JavaScript is the language we use to enable interactivity within the front-end of our e-commerce solutions as well as NetSuite scripting.,
-Geneeral - HTML,Adopt,languages-and-frameworks,yes,HTML is the markup language we use to define the content and structure of our e-commerce frontend.,
-Products - Handlebars,Adopt,languages-and-frameworks,yes,Handlebars is the template language we use as part of Stencil theme development for customizing our e-commerce frontend.,
-General - CSS,Adopt,languages-and-frameworks,yes,"CSS is the styling language we use to define the look, feel, layout of our e-commerce frontend.",
-Products - SCSS,Adopt,languages-and-frameworks,yes,SCSS is the styling language we use to extend our CSS functionality and make writing CSS code easier for the e-commerce frontend.,
-Products - Stencil (BigCommerce),Adopt,Tools,yes,Stencil theme is the front-end build tool provided by BigCommerce for creating themes that can be used to power e-commerce sites.,
-Products/Services - MS SQL Server,Adopt,Tools,yes,MS SQL server is the RDBMS we use for storing data supporting e-commerce applications.,
-General - Visual Studio,Adopt,Tools,yes,Visual Studio is the IDE we use for creating .Net Core applications,
-General - Visual Studio Code,Adopt,Tools,yes,"Visual Studio Code is the IDE we use when working with non .Net codebases, such as front-end development using Stencil.",
-General - Git,Adopt,Tools,yes,"Git is the SCM tool we use for storing, reviewing, and collaborating on code.",
-General - Jira Cloud,Adopt,Platforms,yes,Jira Cloud is the project management system we use for collaborating on work.,
-General - Confluence Cloud,Adopt,Platforms,yes,Confluence cloud is the wiki software we use to collaborate on documentation.,
-Products/Services - Azure Function Apps,Adopt,Tools,yes,Azure function apps are serverless task processing tools which power our marketplace API operations.,
-Products/Services - Azure SQL Server,Adopt,Tools,yes,Azure SQL Server is an azure hosted cloud instance of MS SQL Server,
-Products - GraphQL (consuming),Adopt,languages-and-frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners.,
-General- Agile Development,Adopt,Techniques,yes,"Agile development is a collaborative, self-organizing software development technique. ",
-General - Peer Code Review / PRs,Adopt,Techniques,yes,Peer code review is a technique we currently use to ensure code quality by having developers review other developers code as part of pull requests.,
-Products/Services - Azure App Service,Assess,Tools,yes,Azure app service is a platform service for hosting web applications. Assess in comparison to function apps.,
-Products - NetSuite Rest Web Services,Assess,Platforms,yes,NetSuite Rest Web Services is a newer offering from NetSuite that allows for RESTful interaction with NetSuite resources including transactions. Assess in comparison to RESTlets,
-Products - TypeScript,Assess,languages-and-frameworks,yes,"TypeScript is a typed language that compiles to JavaScript, we use this for a few legacy applications. Assess to see if we want to use this everywhere we use JavaScript.",
-General - BitBucket Cloud,Assess,Platforms,yes,BitBucket (server) is our current hosting environment for SCM. Assess the cloud version to see what environment we should use for this.,
-Products - GraphQL (providing),Assess,languages-and-frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners. Assess whether we would ever want to provide this to either internal or external applications.,
-General - Automated Testing,Adopt,Techniques,yes,Automated testing is a technique to support scalable testing by automating test cases.,
-Products - Celigo Integrator / iPaaS,Assess,Platforms,yes,"Celigo Integrator is a platform that allows for scalable integrations between popular services (BigCommerce, NetSuite, SalesForce, etc.) Assess to replace existing integration services.",
-General - Code Linting,Assess,Techniques,yes,Code linting is a technique that automatically evaluates code for styling and other errors.,
-General - Formal Coding Standards,Assess,Techniques,yes,Formal coding standards are defined coding standards agreed upon by developers.,
-Products - ThemeBridge / BigCommerce Environments,Assess,Tools,yes,"ThemeBridge is a product offered by IntuitSolutions which enables ""sandbox"" environments for BigCommerce theme development. BigCommerce as a storefront is a single environment instance, so something similar to this would be helpful for UAT.",
-Products - NetSuite SuiteTalk Web Services (SOAP),Hold,Platforms,yes,NetSuite SuiteTalk is a platform service for transmitting data to and from NetSuite using SOAP. Hold for more modern alternatives (RESTlets or Rest Web Services).,
-Products - On Premise SQL Server,Hold,Tools,yes,We might want to consider deprecating at least our usage of and access to the on-premise SQL server in comparison to using a cloud solution.,
-Products - Azure Logic Apps,Hold,Tools,yes,Azure logic apps are no-code applications we use for some functionality. Hold in the sense that anything we do in this space should most likely go through an App Service or Function App instead.,
-Products - NetSuite RESTlets,Hold,Tools,yes,NetSuite RESTlets are scripts written in JavaScript to allow for RESTful interaction within NetSuite. Hold to compare with either NetSuite REST Web Services or other less development intense ways of accessing NetSuite data.,
-Products - NetSuite Map/Reduce Scripts,Hold,Tools,yes,NetSuite Map/Reduce scripts are scripts written in JavaScript to allow for scalable map/reduce operations across NetSuite data. Hold to consider moving processing outside of NetSuite and using single resource / action APIs instead.,
-Products - PostgreSQL,Hold,languages-and-frameworks,yes,PostgreSQL is a RDMS that powers some legacy web services. Hold to move to MS SQL Server,
-Products - Confluence Server,Hold,Platforms,yes,Confluence server is our current cloud documentation platform. Hold to move to Confluence cloud or another resource.,
-Products - Jira Server,Hold,Tools,yes,Jira Server is our legacy cloud project management system. Hold since we have moved to Jira cloud.,
-Products - BitBucket Server,Hold,Tools,yes,BitBucket (server) is our current hosting environment for SCM. Hold to move to a cloud alternative.,
-Products - Nginx,Hold,Tools,yes,Nginx is a legacy web server application used for some legacy web services. Hold to move to Azure App Service or Function Apps,
-Services - .Net Framework,Adopt,languages-and-frameworks,,,
-Services - .Net 5,Adopt,languages-and-frameworks,,,
-Services - ASP.NET MVC,Adopt,languages-and-frameworks,,,
-Services - Blazor,Adopt,languages-and-frameworks,,,
-Services - Bootstrap,Adopt,languages-and-frameworks,,,
-Services - Entity Framework,Adopt,languages-and-frameworks,,,
-General - JQuery,Adopt,languages-and-frameworks,,,
-Services - KnockoutJS,Adopt,languages-and-frameworks,,,
-General - Auth0,Adopt,Platforms,,"Auth0 is an authentication/authorization platform, used for authenticating to our APIs",
-Services - Azure Blob Storage,Adopt,Tools,,"Azure blob storage is used for storing documents uploaded from tools, etc",
-Services - Azure Queue Storage,Adopt,Platforms,,Azure queues is a service for storing large numbers of messages. It is used in our Job Queue app,
-Products/Services - Azure SQL,Adopt,Platforms,,Azure SQL Server is an azure hosted cloud instance of MS SQL Server,
-Services - Azure App Service,Adopt,Platforms,,Azure app service is a platform service for hosting web applications.,
-General - Salesforce Marketing Cloud,Adopt,Platforms,,Salesforce marketing messaging,
-Services - Salesforce Sales Cloud,Adopt,Platforms,,Salesforce/eManager is our system record,
-Products/Services - Deployment Slots,Adopt,Techniques,,"We use deployment slots to stage a new release and test against that release, and then we swap that slot with the production slot which is basically just an IP swap.",
-Services - Azure Pipelines,Adopt,Tools,,Azure Pipelines are build/test tools to enable automated build and tests of code bases; Provides CI/CD,
-Services - DevExpress,Adopt,Tools,,"Third Party package that provides UI controls, tools and frameworks for ASP.NET, MVC, Blazore, ASP.Net Core, WPF, Javascript, etc",
-General - Postman,Adopt,Tools,,Postman is an API platform that we use for Integration testing,
-Services - Resharper,Adopt,Tools,,Resharper is a VS plug-in that adds navigation and editing features to VS,
-General - Redoc,Adopt,Tools,,API Documentation Tool/Framework,
-Services - .Net Maui,Assess,languages-and-frameworks,,.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.,
-Services - Azure AD Integration,Assess,Tools,,Azure internal authentication,
-Services - Grape City,Hold,Tools,,Control suite used in our older v3 Clipboard tool.,
-Services - energy orbit,Hold,Platforms,,Salesforce managed package used with our eManager 1.0 application,
-Services - TFS,Hold,Tools,,Version control - move to Git,
-Data Analytics - Azure Data Factory,Hold,Tools,yes,ETL tool allowing for data links between AWS and Azure,
-Data Analytics - DataBricks,Hold,Platforms,yes,Cloud based data science tool,
-Data Analytics - Synapse (TBD),Assess,Platforms,yes,full-data platform but may not be necessary - need to review,
-CEP/hurs - PHP 7,Adopt,languages-and-frameworks,,Main trunk code wirtten in php,
-CEP/hurs - PHP 7.1,Adopt,languages-and-frameworks,,Separate version to accomidate deprecated funcitonality ,
-CEP - Laravel,Adopt,languages-and-frameworks,,"CEP written in laravle, mainly for API use as of now",
-CEP/hurs - Cassandra,Adopt,Platforms,,db for meter read data,
-CEP - Ubuntu 16,Adopt,Platforms,,"Puts the L in LAMP, old version",
-CEP/hurs - Zend 1,Adopt,languages-and-frameworks,,trunk code written in this old framework,
+name,ring,quadrant,isNew,description
+HURs - Micro Service,Adopt,Techniques,TRUE,HURs - Hurs is made up of many little manual steps currently.  We would like to adopt a service oriented architecture to perform these steps. 
+"General - API, endpoint exposure",Adopt,Techniques,1,HURs - Present/expose endpoints for certain parts of the hurs imaging process for consumption
+General - Unit Testing,Adopt,Techniques,1,"Since we are continuous integration, we need better testing prior to promoting code "
+General - Auto Scaling Infrastructue,Adopt,Techniques,1,deploy servers to increase speed and scale based on size of report run.
+General - Queuing ,Adopt,Techniques,1,Promote automation and scaling using queuing to kick off jobs and distribute load
+General - Continuous Integration Deployment,Adopt,Techniques,1,Set up a proper process here.  The current process is not the right way to do it
+HURs - Multithread / Multiservice Batch Runs,Adopt,Techniques,0,Runs across multiple threads on multiple servers in a distributed environment.
+HURs - Digital Storage and Web Delivery,Assess,Techniques,1,Need to set up web interface for encrypted storage and retrieval of PDF content.
+General - Cyprus,Adopt,Tools,1,Unit testing tool for comparison of html and potentially PDF.  
+General - SQS,Adopt,Tools,1,AWS SQS queue system.  Will be used to automate and distribute load
+Cep/Hurs - MYSQL,Adopt,Tools,0,"Currently used to house data, manage processes and index reports"
+HURs - Keyspaces,Assess,Tools,1,Json data collection storage to be used in conjuction with Auto scaling.
+HURs - AWS PHP SDK,Assess,Tools,1,Used to interface with S3 for encrypted storage
+HURs - Puppeteer,Assess,Tools,0,HTML to PDF tool used to turn JS created charts and text into a pdf image
+HURs - Highcharts,Assess,Tools,0,Charting library used in conjuction with puppeteer to create charts and turn them into PDF or images for reports/customer outreach
+HURs - Flask,Assess,Tools,1,Tool used to quickly deploy and manage microservices Python based.  Very similar to Django however it is very light weight and modular
+HURs - AWS S3,Assess,Tools,0,Cheap data storage for CS teams to pull old reports and minimize maintenance.  Also will be used to store zip files and images for autoscaled report production
+Cep/Hurs - Go,Adopt,languages-and-frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)"
+HURs - Next.js,Adopt,languages-and-frameworks,,
+General - Node.js,Assess,languages-and-frameworks,0,Javascripting backend library
+Data analytics/HURs - Python,Trial,languages-and-frameworks,1,"Language used for various tasks, might be useful to assess its usage for certain scripting tasks or greater adoption in the future potentially"
+HURs - Kubernetes,Assess,languages-and-frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially
+Cep/HURs - LAMP ,Assess,Platforms,0,"Current stack.  Not sure what else we would use, but we are open to suggestions.  Currently works fine for our needs"
+Products - BigCommerce,Adopt,Platforms,yes,BigCommerce is our e-commerce SaaS platform that houses all of our turnkey e-commerce marketplaces.
+Products/Services - Azure,Adopt,Platforms,yes,Azure is the platform we use for our newer platform-based development resources.
+Products - NetSuite,Adopt,Platforms,yes,NetSuite is our ERP platform which is what we use for fulfilling orders.
+Products/Services - C#,Adopt,languages-and-frameworks,yes,C# is the language we use for newer platform-based services.
+Products/Services - .Net Core,Adopt,languages-and-frameworks,yes,.Net Core is the framework we use for newer platform-based services.
+Products/Services - Entity Framework Core,Adopt,languages-and-frameworks,yes,Entity Framework Core is the ORM framework we use for newer platform-based services.
+General - JavaScript,Adopt,languages-and-frameworks,yes,JavaScript is the language we use to enable interactivity within the front-end of our e-commerce solutions as well as NetSuite scripting.
+Geneeral - HTML,Adopt,languages-and-frameworks,yes,HTML is the markup language we use to define the content and structure of our e-commerce frontend.
+Products - Handlebars,Adopt,languages-and-frameworks,yes,Handlebars is the template language we use as part of Stencil theme development for customizing our e-commerce frontend.
+General - CSS,Adopt,languages-and-frameworks,yes,"CSS is the styling language we use to define the look, feel, layout of our e-commerce frontend."
+Products - SCSS,Adopt,languages-and-frameworks,yes,SCSS is the styling language we use to extend our CSS functionality and make writing CSS code easier for the e-commerce frontend.
+Products - Stencil (BigCommerce),Adopt,Tools,yes,Stencil theme is the front-end build tool provided by BigCommerce for creating themes that can be used to power e-commerce sites.
+Products/Services - MS SQL Server,Adopt,Tools,yes,MS SQL server is the RDBMS we use for storing data supporting e-commerce applications.
+General - Visual Studio,Adopt,Tools,yes,Visual Studio is the IDE we use for creating .Net Core applications
+General - Visual Studio Code,Adopt,Tools,yes,"Visual Studio Code is the IDE we use when working with non .Net codebases, such as front-end development using Stencil."
+General - Git,Adopt,Tools,yes,"Git is the SCM tool we use for storing, reviewing, and collaborating on code."
+General - Jira Cloud,Adopt,Platforms,yes,Jira Cloud is the project management system we use for collaborating on work.
+General - Confluence Cloud,Adopt,Platforms,yes,Confluence cloud is the wiki software we use to collaborate on documentation.
+Products/Services - Azure Function Apps,Adopt,Tools,yes,Azure function apps are serverless task processing tools which power our marketplace API operations.
+Products/Services - Azure SQL Server,Adopt,Tools,yes,Azure SQL Server is an azure hosted cloud instance of MS SQL Server
+Products - GraphQL (consuming),Adopt,languages-and-frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners.
+General- Agile Development,Adopt,Techniques,yes,"Agile development is a collaborative, self-organizing software development technique. "
+General - Peer Code Review / PRs,Adopt,Techniques,yes,Peer code review is a technique we currently use to ensure code quality by having developers review other developers code as part of pull requests.
+Products/Services - Azure App Service,Assess,Tools,yes,Azure app service is a platform service for hosting web applications. Assess in comparison to function apps.
+Products - NetSuite Rest Web Services,Assess,Platforms,yes,NetSuite Rest Web Services is a newer offering from NetSuite that allows for RESTful interaction with NetSuite resources including transactions. Assess in comparison to RESTlets
+Products - TypeScript,Assess,languages-and-frameworks,yes,"TypeScript is a typed language that compiles to JavaScript, we use this for a few legacy applications. Assess to see if we want to use this everywhere we use JavaScript."
+General - BitBucket Cloud,Assess,Platforms,yes,BitBucket (server) is our current hosting environment for SCM. Assess the cloud version to see what environment we should use for this.
+Products - GraphQL (providing),Assess,languages-and-frameworks,yes,GraphQL is a query language we use when sourcing data from external fulfillment partners. Assess whether we would ever want to provide this to either internal or external applications.
+General - Automated Testing,Adopt,Techniques,yes,Automated testing is a technique to support scalable testing by automating test cases.
+Products - Celigo Integrator / iPaaS,Assess,Platforms,yes,"Celigo Integrator is a platform that allows for scalable integrations between popular services (BigCommerce, NetSuite, SalesForce, etc.) Assess to replace existing integration services."
+General - Code Linting,Assess,Techniques,yes,Code linting is a technique that automatically evaluates code for styling and other errors.
+General - Formal Coding Standards,Assess,Techniques,yes,Formal coding standards are defined coding standards agreed upon by developers.
+Products - ThemeBridge / BigCommerce Environments,Assess,Tools,yes,"ThemeBridge is a product offered by IntuitSolutions which enables ""sandbox"" environments for BigCommerce theme development. BigCommerce as a storefront is a single environment instance, so something similar to this would be helpful for UAT."
+Products - NetSuite SuiteTalk Web Services (SOAP),Hold,Platforms,yes,NetSuite SuiteTalk is a platform service for transmitting data to and from NetSuite using SOAP. Hold for more modern alternatives (RESTlets or Rest Web Services).
+Products - On Premise SQL Server,Hold,Tools,yes,We might want to consider deprecating at least our usage of and access to the on-premise SQL server in comparison to using a cloud solution.
+Products - Azure Logic Apps,Hold,Tools,yes,Azure logic apps are no-code applications we use for some functionality. Hold in the sense that anything we do in this space should most likely go through an App Service or Function App instead.
+Products - NetSuite RESTlets,Hold,Tools,yes,NetSuite RESTlets are scripts written in JavaScript to allow for RESTful interaction within NetSuite. Hold to compare with either NetSuite REST Web Services or other less development intense ways of accessing NetSuite data.
+Products - NetSuite Map/Reduce Scripts,Hold,Tools,yes,NetSuite Map/Reduce scripts are scripts written in JavaScript to allow for scalable map/reduce operations across NetSuite data. Hold to consider moving processing outside of NetSuite and using single resource / action APIs instead.
+Products - PostgreSQL,Hold,languages-and-frameworks,yes,PostgreSQL is a RDMS that powers some legacy web services. Hold to move to MS SQL Server
+Products - Confluence Server,Hold,Platforms,yes,Confluence server is our current cloud documentation platform. Hold to move to Confluence cloud or another resource.
+Products - Jira Server,Hold,Tools,yes,Jira Server is our legacy cloud project management system. Hold since we have moved to Jira cloud.
+Products - BitBucket Server,Hold,Tools,yes,BitBucket (server) is our current hosting environment for SCM. Hold to move to a cloud alternative.
+Products - Nginx,Hold,Tools,yes,Nginx is a legacy web server application used for some legacy web services. Hold to move to Azure App Service or Function Apps
+Services - .Net Framework,Adopt,languages-and-frameworks,,
+Services - .Net 5,Adopt,languages-and-frameworks,,
+Services - ASP.NET MVC,Adopt,languages-and-frameworks,,
+Services - Blazor,Adopt,languages-and-frameworks,,
+Services - Bootstrap,Adopt,languages-and-frameworks,,
+Services - Entity Framework,Adopt,languages-and-frameworks,,
+General - JQuery,Adopt,languages-and-frameworks,,
+Services - KnockoutJS,Adopt,languages-and-frameworks,,
+General - Auth0,Adopt,Platforms,,"Auth0 is an authentication/authorization platform, used for authenticating to our APIs"
+Services - Azure Blob Storage,Adopt,Tools,,"Azure blob storage is used for storing documents uploaded from tools, etc"
+Services - Azure Queue Storage,Adopt,Platforms,,Azure queues is a service for storing large numbers of messages. It is used in our Job Queue app
+Products/Services - Azure SQL,Adopt,Platforms,,Azure SQL Server is an azure hosted cloud instance of MS SQL Server
+Services - Azure App Service,Adopt,Platforms,,Azure app service is a platform service for hosting web applications.
+General - Salesforce Marketing Cloud,Adopt,Platforms,,Salesforce marketing messaging
+Services - Salesforce Sales Cloud,Adopt,Platforms,,Salesforce/eManager is our system record
+Products/Services - Deployment Slots,Adopt,Techniques,,"We use deployment slots to stage a new release and test against that release, and then we swap that slot with the production slot which is basically just an IP swap."
+Services - Azure Pipelines,Adopt,Tools,,Azure Pipelines are build/test tools to enable automated build and tests of code bases; Provides CI/CD
+Services - DevExpress,Adopt,Tools,,"Third Party package that provides UI controls, tools and frameworks for ASP.NET, MVC, Blazore, ASP.Net Core, WPF, Javascript, etc"
+General - Postman,Adopt,Tools,,Postman is an API platform that we use for Integration testing
+Services - Resharper,Adopt,Tools,,Resharper is a VS plug-in that adds navigation and editing features to VS
+General - Redoc,Adopt,Tools,,API Documentation Tool/Framework
+Services - .Net Maui,Assess,languages-and-frameworks,,.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.
+Services - Azure AD Integration,Assess,Tools,,Azure internal authentication
+Services - Grape City,Hold,Tools,,Control suite used in our older v3 Clipboard tool.
+Services - energy orbit,Hold,Platforms,,Salesforce managed package used with our eManager 1.0 application
+Services - TFS,Hold,Tools,,Version control - move to Git
+Data Analytics - Azure Data Factory,Hold,Tools,yes,ETL tool allowing for data links between AWS and Azure
+Data Analytics - DataBricks,Hold,Platforms,yes,Cloud based data science tool
+Data Analytics - Synapse (TBD),Assess,Platforms,yes,full-data platform but may not be necessary - need to review
+CEP/hurs - PHP 7,Adopt,languages-and-frameworks,,Main trunk code wirtten in php
+CEP/hurs - PHP 7.1,Adopt,languages-and-frameworks,,Separate version to accomidate deprecated funcitonality 
+CEP - Laravel,Adopt,languages-and-frameworks,,"CEP written in laravle, mainly for API use as of now"
+CEP/hurs - Cassandra,Adopt,Platforms,,db for meter read data
+CEP - Ubuntu 16,Adopt,Platforms,,"Puts the L in LAMP, old version"
+CEP/hurs - Zend 1,Adopt,languages-and-frameworks,,trunk code written in this old framework

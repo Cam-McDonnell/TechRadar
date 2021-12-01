@@ -17,7 +17,7 @@ HURs - Highcharts,Assess,Tools,0,Charting library used in conjuction with puppet
 HURs - Flask,Assess,Tools,1,Tool used to quickly deploy and manage microservices Python based.  Very similar to Django however it is very light weight and modular,
 HURs - AWS S3,Assess,Tools,0,Cheap data storage for CS teams to pull old reports and minimize maintenance.  Also will be used to store zip files and images for autoscaled report production,
 Cep/Hurs - Go,Adopt,languages-and-frameworks,0,"Current preffered language for creating services for Hurs (Normalization, comparables and DCS-soon)",
-HURs - Next.js,adopt,languages-and-frameworks,,,
+HURs - Next.js,Adopt,languages-and-frameworks,,,
 General - Node.js,Assess,languages-and-frameworks,0,Javascripting backend library,
 Data analytics/HURs - Python,Trial,languages-and-frameworks,1,"Language used for various tasks, might be useful to assess its usage for certain scripting tasks or greater adoption in the future potentially",
 HURs - Kubernetes,Assess,languages-and-frameworks,1,Make use of kubernetes packages to quickly deploy in autoscaling potentially,
